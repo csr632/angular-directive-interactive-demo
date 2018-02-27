@@ -4,10 +4,14 @@ import { RouterModule } from '@angular/router';
 
 
 import { AppComponent } from './app.component';
+import { BComponent } from './BComponent/b.component';
+import { CDirective } from './CDirective/c.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BComponent,
+    CDirective,
   ],
   imports: [
     BrowserModule
