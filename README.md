@@ -1,3 +1,9 @@
+# discussion blog
+* https://segmentfault.com/a/1190000013473028 (Chinese)
+
+****
+below instructions are from: https://github.com/csr632/angular-aot-demo-with-ngc-webpack
+
 # learn angular aot with ngc and webpack
 A minified project to learn Angular5 aot with `ngc`(Angular compiler cli) and webpack. Also demonstrate how to import 3rd lib such as jQuery.
 
