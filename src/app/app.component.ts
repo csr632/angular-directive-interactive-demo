@@ -9,7 +9,9 @@ import {
   styleUrls: ['app.component.css']
 })
 export class AppComponent {
-  bindingVal = 'property binding value';
   constructor() {
+  }
+  log(val) {
+    console.log('log:', val);
   }
 }

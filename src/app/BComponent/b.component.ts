@@ -6,11 +6,19 @@ import {
 @Component({
   selector: 'b-comp',
   templateUrl: 'b.component.html',
-  inputs: ['id: account-id']
 })
 
-export class BComponent {
+export class BComponent implements OnInit {
   name = 'BComponent';
-  id;
+  @Output() opt1 = new EventEmitter();
+  @Output() opt2 = new EventEmitter();
+
   constructor() { }
+
+  ngOnInit() {
+    setTimeout(() => {
+      this.opt1.emit('optValue~');
+      this.opt2.emit('optValue222~');
+    }, 2000);
+  }
 }
